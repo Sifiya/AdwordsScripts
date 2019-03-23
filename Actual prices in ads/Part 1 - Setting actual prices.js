@@ -1,6 +1,6 @@
 var CAMP_LABEL_NAMES = ["'Price Update'"]; //Массив с ярлыками кампаний, в которых проводить подстановку
 var CHECKED_LABEL_NAME = "PriceChecked";//Ярлык уже проверенных объявлений
-var SPREADSHEET_URL = "https://docs.google.com/spreadsheets/d/1c-hr3azQIwH8OzT06DthfJnuGirRRx0fmID9VRYmlkk/edit"; //ссылка на фид
+var SPREADSHEET_URL = "https://docs.google.com/spreadsheets/"; //ссылка на фид
 
 function main() {
   var spreadsheet = SpreadsheetApp.openByUrl(SPREADSHEET_URL);
